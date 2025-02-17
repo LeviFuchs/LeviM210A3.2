@@ -1,0 +1,5 @@
+# Basis-Image von Docker Hub verwenden
+FROM nginx
+
+# Kopiere HTML-Dateien in den Nginx-Webserver
+COPY  /app/web/ /usr/share/nginx/html
